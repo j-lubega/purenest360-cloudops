@@ -43,4 +43,4 @@ The goal of **jlcloudops** is to provide a central "source of truth" for solving
 
 *Author: Jimmy Lubega*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/https://www.linkedin.com/in/jimmy-lubega-393652184/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jimmy-lubega-393652184/)
