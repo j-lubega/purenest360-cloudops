@@ -1,4 +1,4 @@
-<!-- Video Background Container -->
+<!-- Video Background -->
 <div class="video-background">
   <video autoplay muted loop playsinline>
     <source src="{{ '/assets/images/website-bg.mp4' | relative_url }}" type="video/mp4">
@@ -6,6 +6,7 @@
   </video>
 </div>
 
+<!-- Site Header -->
 <header class="site-header">
   <div class="brand">JLCloudOps</div>
   <nav>
@@ -14,5 +15,10 @@
     {% endfor %}
   </nav>
 </header>
+
+<!-- Main Content Wrapper -->
+<main class="site-content">
+  {{ content }}
+</main>
 
 
