@@ -1,78 +1,19 @@
-:root {
-  --primary: #0f172a;
-  --secondary: #2563eb;
-  --background: #f8fafc;
-  --text: #1e293b;
-  --muted: #64748b;
-}
-
 body {
   margin: 0;
-  font-family: Inter, system-ui, sans-serif;
-  background: var(--background);
-  color: var(--text);
+  font-family: 'Inter', 'Roboto', sans-serif;
+  color: #1e293b;
+  
+  /* Background */
+  background: url('../images/website-bg.mp4') no-repeat center center fixed;
+  background-size: cover;
+
+  /* Subtle movement effect */
+  animation: backgroundMove 60s linear infinite;
 }
 
-.container {
-  max-width: 960px;
-  margin: auto;
-  padding: 2rem;
-}
-
-.site-header {
-  background: var(--primary);
-  color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-header a {
-  color: white;
-  margin-left: 1.5rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.site-header a:hover {
-  text-decoration: underline;
-}
-
-.page h1 {
-  color: var(--primary);
-  margin-bottom: 0.5rem;
-}
-
-.page-description {
-  color: var(--muted);
-  margin-bottom: 2rem;
-}
-
-.site-footer {
-  text-align: center;
-  padding: 2rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-
-```css
-body {
-  font-family: 'Inter', 'Roboto', system-ui, sans-serif;
-  background-color: #f0f4f8; /* Soft cloud background */
-  color: #1e293b; /* Dark text for readability */
-}
-
-h1, h2 {
-  color: #0f172a; /* Deep blue headings */
-}
-
-h1::before { content: "☁️ "; }
-h2::before { content: "🔐 "; }
-
-ul li::before {
-  content: "• "; /* Optional: use dots for bullets */
-  color: #2563eb; /* Primary blue bullets */
+@keyframes backgroundMove {
+  0% { background-position: 0 0; }
+  50% { background-position: 100px 100px; }
+  100% { background-position: 0 0; }
 }
 
