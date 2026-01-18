@@ -56,3 +56,23 @@ body {
   font-size: 0.9rem;
 }
 
+
+```css
+body {
+  font-family: 'Inter', 'Roboto', system-ui, sans-serif;
+  background-color: #f0f4f8; /* Soft cloud background */
+  color: #1e293b; /* Dark text for readability */
+}
+
+h1, h2 {
+  color: #0f172a; /* Deep blue headings */
+}
+
+h1::before { content: "☁️ "; }
+h2::before { content: "🔐 "; }
+
+ul li::before {
+  content: "• "; /* Optional: use dots for bullets */
+  color: #2563eb; /* Primary blue bullets */
+}
+
