@@ -7,8 +7,6 @@ I utilize a "Best of Breed" approach by combining Terraform and Ansible:
 * **Terraform:** Best for **Provisioning**. It manages the lifecycle of infrastructure (VPCs, VMs, Databases) using a *declarative* approach.
 * **Ansible:** Best for **Configuration Management**. It handles software installation, security patching, and OS hardening using an *agentless* approach via SSH.
 
-
-
 ---
 
 ## 1. Terraform: Infrastructure Provisioning
