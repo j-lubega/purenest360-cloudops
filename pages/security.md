@@ -2,9 +2,7 @@
 
 Security is a **first-class concern** in modern DevOps and cloud environments. Implementing security practices consistently helps protect assets, maintain compliance, and ensure reliability.
 
----
-
-## 🔐 Identity & Access Management (IAM)
+## Identity & Access Management (IAM)
 
 - **Principle of Least Privilege (PoLP)**  
   Assign only the minimum permissions required for users and services.  
@@ -14,8 +12,6 @@ Security is a **first-class concern** in modern DevOps and cloud environments. I
 
 - **Regular Access Review**  
   Periodically audit user access, keys, and roles. Remove stale permissions.
-
----
 
 ## 🛡 Network & Infrastructure Security
 
@@ -28,8 +24,6 @@ Security is a **first-class concern** in modern DevOps and cloud environments. I
 - **Zero Trust Model**  
   Verify identity, device health, and context before granting access.
 
----
-
 ## 🔑 Secrets Management
 
 - **Do Not Hardcode Secrets**  
@@ -40,8 +34,6 @@ Security is a **first-class concern** in modern DevOps and cloud environments. I
 
 - **Audit Secret Usage**  
   Log and monitor secret access patterns for anomalies.
-
----
 
 ## 📦 Secure CI/CD Pipelines
 
@@ -67,8 +59,6 @@ Security is a **first-class concern** in modern DevOps and cloud environments. I
 - **Continuous Compliance Checks**  
   Run automated checks to detect misconfigurations or drift.
 
----
-
 ## 🛠 Threat Detection & Monitoring
 
 - **Real-Time Monitoring**  
@@ -80,8 +70,6 @@ Security is a **first-class concern** in modern DevOps and cloud environments. I
 - **Penetration Testing**  
   Conduct regular pentests or vulnerability assessments to identify weaknesses.
 
----
-
 ## 🌱 Culture & Training
 
 - **Security Awareness**  
@@ -92,8 +80,6 @@ Security is a **first-class concern** in modern DevOps and cloud environments. I
 
 - **Post-Mortem Reviews**  
   Review security incidents and document lessons learned.
-
----
 
 ## 📚 References & Resources
 
