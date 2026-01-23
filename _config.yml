@@ -6,7 +6,6 @@ description: >
 author:
   name: Jimmy Lubega
   role: DevOps & Cloud Engineer
-  
 
 url: https://j-lubega.github.io
 baseurl: /jlcloudops
@@ -23,7 +22,11 @@ seo:
 defaults:
   -
     scope:
-      path: "pages"
+      path: ""
+      type: "pages"
     values:
       layout: page
+
+exclude:
+  - README.md
 
