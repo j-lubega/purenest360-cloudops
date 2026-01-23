@@ -1,6 +1,6 @@
 ---
-title: Welcome
-description: Practical DevOps & Cloud engineering knowledge built from real-world experience.
+layout: page
+title: Home
 ---
 
 ## What is JLCloudOps?
